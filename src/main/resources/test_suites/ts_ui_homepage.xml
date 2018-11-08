@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ts_ui_homepage">
+	<parameter name="suite" value="true" />
+	<listeners>
+		<listener class-name="test_utils.Listeners.TestListener"/>
+		<listener class-name="test_utils.Listeners.AnnotationTransformer"/>
+	</listeners>
+	<test name="TC_UI_HomePage_001">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_001"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_HomePage_002">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_002"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_HomePage_003">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_003"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_HomePage_004">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_004"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_HomePage_005">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_005"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_HomePage_006">
+		<classes>
+			<class name="test_cases.ts_ui_homepage.TC_UI_HomePage_006"></class>
+		</classes>
+	</test>
+</suite> 
